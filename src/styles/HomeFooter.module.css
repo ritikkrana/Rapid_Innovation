@@ -1,0 +1,26 @@
+.footer{
+    /* border: 2px solid red;  */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    background-color: black;
+    min-width: 480px;
+}
+
+#footer1{
+    /* border: 2px solid black;  */
+    padding-left: 80px;
+    color: white;
+}
+#footer2{
+    /* border: 2px solid brown;  */
+    color: white;
+    padding-left: 80px;
+}
+
+#footer1 p{
+    width: 202px;
+}
+
+#footer2 p{
+    margin: 0px 0px 10px 0px;
+}

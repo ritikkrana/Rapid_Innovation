@@ -1,0 +1,103 @@
+.contactUs{
+    box-sizing: border-box;
+}
+
+#contactUs1{
+    /* border: 2px solid red; */
+    font-size: x-large;
+    font-weight: bold;
+    padding: 67px 0px 48px 72px;
+    /* background: linear-gradient(45deg, #1b0f48, #860cba); */
+    background-color: #30034a;
+    color: white;
+    min-width: 410px;
+}
+
+#contactUs1 h1{
+    margin-bottom: 5px;
+}
+
+#contactUs1 p{
+    margin-top: 0px;
+    font-size:large;
+    font-weight: initial;
+    width: 58%;
+}
+
+@media only screen and (max-width: 300px){
+    #contactUs1{
+        padding-top: 195px;
+    }
+}
+
+@media (min-width: 301px) and (max-width: 969px){
+    #contactUs1{
+        padding-top: 105px;
+    }
+}
+
+#contactUs2{
+    /* border: 2px solid blue; */
+    padding: 65px 0px 65px 0px;
+    min-width: 481px;
+    text-align: center;
+    background: linear-gradient(45deg, #4b349e, #be5ae9);
+    /* width: 100%; */
+}
+
+#insideDiv{
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+/* #contactUs2 Form div{
+    border: 2px solid orange;
+} */
+
+#insideDiv label{
+    display:block;
+    font-weight: bold;
+}
+
+#insideDiv input{
+    margin: 10px 0px 10px 0px;
+    border-radius: 6px;
+    padding: 10px;
+    font-size:medium;
+    width: 60%;
+}
+
+#insideDiv textarea{
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 0px 10px 0px;
+    border-radius: 6px;
+    padding: 10px;
+    font-size:medium;
+}
+
+#contactUs2_2{
+    border: 2px solid black;
+    width: 45%;
+    min-width: 200px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 6px;
+    padding-top: 20px;
+}
+
+#submitDiv{
+    /* border: 2px solid red; */
+    margin: 20px 0px;
+}
+
+#submitDiv button{
+    width: 90%;
+    height: 40px;
+    border-radius: 6px;
+    font-size: medium;
+    font-weight: bold;
+    background: linear-gradient(45deg, #feb302, #fb8032);
+    cursor: pointer;
+}
